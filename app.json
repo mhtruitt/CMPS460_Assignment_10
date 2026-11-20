@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "LocationJournal",
+    "slug": "location-journal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Location Journal uses the camera so you can take a photo for each journal entry.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Location Journal reads your location once when you tap 'Get Current Location' to attach coordinates to an entry."
+        }
+      ]
+    ]
+  }
+}
